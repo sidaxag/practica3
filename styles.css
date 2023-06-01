@@ -1,0 +1,85 @@
+header{
+    background-color: aqua;
+    padding: 10px;
+}
+
+#nav{
+background-color: blueviolet;
+height: 30px;
+border-radius: 5px;
+}
+
+.nav__text{/*blue*/
+    margin-left: 10px;
+}
+
+.aside_navigation{
+    display: inline-block;
+    background-color: orange;
+    height: 250px;
+    width: 180px;
+}
+
+.main_container{
+    display: inline-block;
+    width: 180px;
+    height: 250px;
+    background-color: red;
+}
+
+.footer_container{
+    background-color: purple;
+    height: 90px;
+
+}
+
+p, span,div{
+    color: hotpink;
+}
+
+
+.welcome__text, .welcome__description{
+    color: red;
+}
+
+.prices__container>p{
+    font-weight: bold;
+}
+
+.prices__container > p > .prices_discount--red{
+    color: red;
+}
+
+.buttons_container > .buttons_ecommerce {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttons_container >.buttons_add{
+    background-color: yellow;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttons_container>.buttons_buy {
+    background-color: green;
+    
+}
+
+.buttons_ecommerce:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.buttons_ecommerce[type*="button"]:hover{
+    color: white;
+}
+
+.login_container>input[type*="password"]{
+    color: pink;
+}
+
+/* .buttons_ecommerce[type*="submit"]:hover {
+    color: white;
+} */
